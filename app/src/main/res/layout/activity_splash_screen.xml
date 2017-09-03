@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#42c5c6"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context="vivonk.developer.inc.campusfood.Activity.SplashScreen">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bhukha Hai?"
+        android:textSize="22sp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kuch Order Karle"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_button"
+            android:text="Bhuka hai? Yahan Click kar"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:paddingStart="10dp"
+            android:id="@+id/student"
+            android:paddingEnd="10dp"
+            android:textSize="16sp"
+            android:layout_gravity="center"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_button"
+            android:text="Canteen Waale Bhaiya Yahaan click kare"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:id="@+id/canteen"
+            android:layout_marginTop="40dp"
+            android:paddingStart="10dp"
+            android:textSize="16sp"
+            android:paddingEnd="10dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</LinearLayout>
