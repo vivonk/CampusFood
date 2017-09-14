@@ -17,9 +17,7 @@ import vivonk.developer.inc.campusfood.R;
 
 import static android.content.ContentValues.TAG;
 
-/**
- * Created by vivonk on 03-09-2017.
- */
+
 
 public class FoodFragment extends Fragment {
     private ListView listView;
